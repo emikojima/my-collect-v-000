@@ -4,5 +4,5 @@ def my_collect(array)
   array.each do |i|
   new_array << yield(i)
 end
-    
+    new_array
 end
